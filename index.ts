@@ -2,7 +2,7 @@ import { utils, writeFile } from "xlsx";
 import { WorkSheet, WorkBook } from "xlsx";
 
 
-export default class JsonToXlsx{
+export default class JsonConvertXlsx{
   public originData: any;
 
   public ws: WorkSheet;
@@ -18,7 +18,7 @@ export default class JsonToXlsx{
     
   }
 
-  replaceHeader(obj: object): JsonToXlsx{
+  replaceHeader(obj: object): JsonConvertXlsx{
     
     const range = utils.decode_range(this.ws['!ref'] as any)
 
