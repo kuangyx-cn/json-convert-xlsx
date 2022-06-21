@@ -1,0 +1,30 @@
+{
+  "name": "json-to-xlsx",
+  "description": "这是一个json转换为xlsx文件的库。This is a library to convert json to xlsx file。",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuangyx-cn/json-to-xlsx.git"
+  },
+  "keywords": [
+    "json-to-xlsx",
+    "kuangyx",
+    "excel",
+    "xlsx",
+    "office",
+    "json"
+  ],
+  "author": "tomiaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuangyx-cn/json-to-xlsx/issues"
+  },
+  "homepage": "https://github.com/kuangyx-cn/json-to-xlsx#readme"
+}
